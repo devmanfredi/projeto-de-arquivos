@@ -24,7 +24,8 @@ int main(){
         for(j = i + 1; j < tamanho; j++){
             soma = p[i] + p[j];
             if(soma == valor) {
-                printf("%d",soma);
+                printf("\n");
+                printf("A soma eh igual a  %d !",soma);
             return 1;
             }
         }
