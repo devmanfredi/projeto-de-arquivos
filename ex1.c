@@ -26,12 +26,10 @@ int main(){
             if(soma == valor) {
                 printf("\n");
                 printf("A soma eh igual a  %d !",soma);
-            return 1;
             }
         }
-
     }
 
-
+    return 1;
 }
 
